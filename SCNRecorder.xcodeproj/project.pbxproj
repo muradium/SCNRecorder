@@ -242,25 +242,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BE4C079C247B41810008AA5E /* Supporting Files */ = {
+		1F0836A2267E7CE9002E65F9 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				BE7565A02471246500B7EED2 /* .swiftlint.yml */,
-				BE4C33D42236A6BA007AE1EE /* Info.plist */,
-				FB81FF2D251B7885001C129F /* LICENSE.md */,
-				BE4C34232236BAB2007AE1EE /* README.md */,
-				BE4C33D32236A6BA007AE1EE /* SCNRecorder.h */,
-				D5B924262510CCE000D35585 /* SCNRecorder.modulemap */,
+				D57464AF25725BA70025578A /* SCNRecorderTests */,
 			);
-			name = "Supporting Files";
+			path = Tests;
 			sourceTree = "<group>";
 		};
 		BE4C33C62236A6BA007AE1EE = {
 			isa = PBXGroup;
 			children = (
 				BE4C33D22236A6BA007AE1EE /* Sources */,
-				BE4C079C247B41810008AA5E /* Supporting Files */,
-				D57464AF25725BA70025578A /* SCNRecorderTests */,
+				1F0836A2267E7CE9002E65F9 /* Tests */,
 				D5D5F491257D72FB008D7107 /* SCNRecorderTestsApp */,
 				BE4C33D12236A6BA007AE1EE /* Products */,
 				D5A81486257AD937004C9E83 /* Frameworks */,
@@ -282,6 +276,12 @@
 		BE4C33D22236A6BA007AE1EE /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				BE7565A02471246500B7EED2 /* .swiftlint.yml */,
+				BE4C33D42236A6BA007AE1EE /* Info.plist */,
+				FB81FF2D251B7885001C129F /* LICENSE.md */,
+				BE4C34232236BAB2007AE1EE /* README.md */,
+				BE4C33D32236A6BA007AE1EE /* SCNRecorder.h */,
+				D5B924262510CCE000D35585 /* SCNRecorder.modulemap */,
 				D5B923AB2510CC9B00D35585 /* AudioSettings.swift */,
 				D5B923C32510CC9B00D35585 /* VideoRecording.swift */,
 				D5B923BD2510CC9B00D35585 /* VideoRecording.Info.swift */,
