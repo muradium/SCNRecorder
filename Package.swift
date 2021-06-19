@@ -19,7 +19,7 @@ let package = Package(
             name: "SCNRecorder",
             path: "Sources/SCNRecorder",
             exclude: ["Info.plist"],
-            publicHeadersPath: "Sources/SCNRecorderObjC"),
+            publicHeadersPath: "Sources/SCNRecorderObjC/Helpers/MulticastDelegate"),
         .target(
             name: "SCNRecorderObjC",
             path: "Sources/SCNRecorderObjC"),
