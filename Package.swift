@@ -22,7 +22,10 @@ let package = Package(
             publicHeadersPath: "Sources/SCNRecorderObjC/Helpers/MulticastDelegate"),
         .target(
             name: "SCNRecorderObjC",
-            path: "Sources/SCNRecorderObjC"),
+            path: "Sources/SCNRecorderObjC",
+            cSettings: [
+                .headerSearchPath("Helpers"),
+            ]),
         .testTarget(
             name: "SCNRecorderTests",
             dependencies: ["SCNRecorder"],
