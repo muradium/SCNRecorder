@@ -17,14 +17,14 @@ let package = Package(
     targets: [
         .target(
             name: "SCNRecorder",
+            dependencies: ["SCNRecorderObjC"],
             path: "Sources/SCNRecorder",
-            exclude: ["Info.plist"],
-            publicHeadersPath: "Sources/SCNRecorderObjC/Helpers/MulticastDelegate"),
+            exclude: ["Info.plist"]),
         .target(
             name: "SCNRecorderObjC",
             path: "Sources/SCNRecorderObjC",
             cSettings: [
-                .headerSearchPath("Helpers"),
+                .headerSearchPath(""),
             ]),
         .testTarget(
             name: "SCNRecorderTests",
