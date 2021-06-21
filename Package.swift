@@ -22,10 +22,10 @@ let package = Package(
             exclude: ["Info.plist"]),
         .target(
             name: "SCNRecorderObjC",
-            path: "Sources/SCNRecorderObjC",
-            cSettings: [
-                .headerSearchPath("include"),
-            ]
+            path: "Sources/SCNRecorderObjC"
+//            cSettings: [
+//                .headerSearchPath("include"),
+//            ]
         ),
         .testTarget(
             name: "SCNRecorderTests",
