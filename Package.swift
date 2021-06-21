@@ -24,7 +24,7 @@ let package = Package(
             name: "SCNRecorderObjC",
             path: "Sources/SCNRecorderObjC",
             cSettings: [
-                .headerSearchPath("Helpers/MulticastDelegate"),
+                .headerSearchPath("Include"),
             ]),
         .testTarget(
             name: "SCNRecorderTests",
